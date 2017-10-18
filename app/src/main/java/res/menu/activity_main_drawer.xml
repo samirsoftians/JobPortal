@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<group android:checkableBehavior="single">-->
+
+    <group android:id="@+id/nav_open_account_group"
+        android:checkableBehavior="single">
+
+        <item
+            android:textSize="2sp"
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/menusearch"
+            android:title="Search Job" />
+
+        </group>
+
+
+    <group android:id="@+id/nav_open_account_group2"
+        android:checkableBehavior="single">
+
+
+        <item
+            android:textSize="2sp"
+            android:id="@+id/myjob"
+            android:icon="@drawable/perexperience"
+            android:title="My Job" />
+
+
+    </group>
+
+    <group android:id="@+id/nav_open_account_group3"
+        android:checkableBehavior="single">
+
+        <item
+            android:textSize="2sp"
+            android:id="@+id/appplyedjob"
+            android:icon="@drawable/menuapplyedjob"
+            android:title="Applyed job" />
+
+    </group>
+
+    <group android:id="@+id/nav_open_account_group4"
+        android:checkableBehavior="single">
+
+        <item
+            android:textSize="2sp"
+            android:id="@+id/nav_share"
+            android:icon="@drawable/pername"
+            android:title="Profile" />
+
+
+    </group>
+
+    <!--<group android:id="@+id/nav_open_account_group5"-->
+        <!--android:checkableBehavior="single">-->
+
+        <!--<item-->
+            <!--android:textSize="2sp"-->
+            <!--android:id="@+id/personaldetails"-->
+            <!--android:icon="@drawable/update"-->
+            <!--android:title="Update" />-->
+
+    <!--</group>-->
+        <!--<item-->
+            <!--android:id="@+id/experience"-->
+            <!--android:icon="@drawable/experience"-->
+            <!--android:title="Experience" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/education"-->
+            <!--android:icon="@drawable/qualification"-->
+            <!--android:title="Qualification" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/location"-->
+            <!--android:icon="@drawable/location"-->
+            <!--android:title="Choose places" />-->
+    <group android:id="@+id/nav_open_account_group11"
+        android:checkableBehavior="single">
+        <item
+
+            android:textSize="2sp"
+            android:id="@+id/logout"
+            android:icon="@drawable/menulogout"
+            android:title="Logout" />
+
+</group>
+
+
+
+
+
+
+</menu>

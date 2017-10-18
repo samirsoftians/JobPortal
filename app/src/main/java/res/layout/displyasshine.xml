@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#038c8b"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+      card_view:cardBackgroundColor="#038c8b"
+        card_view:cardCornerRadius="2dp"
+        card_view:contentPadding="10dp">
+
+
+
+
+        <TableLayout
+
+            android:background="@drawable/tablecorner"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--<LinearLayout-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/listview_designation"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:textColor="#000"-->
+            <!--android:textSize="20dp"-->
+            <!--android:text="Android Developer"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+
+
+
+
+            <!--</LinearLayout>-->
+
+
+
+
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--<TextView-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:id="@+id/listview_qualification"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="#031ff5"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" />-->
+
+                <TextView
+                    android:id="@+id/listview_experience"
+
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textColor="#001dfe"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:drawableLeft="@drawable/jobid"
+                    android:textColor="#000"
+                    android:id="@+id/listview_id"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+                <TextView
+                    android:drawableLeft="@drawable/joblocation"
+                   android:layout_gravity="bottom"
+                    android:id="@+id/listview_location"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"/>
+
+
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listview_experience"-->
+                    <!--android:drawableLeft="@drawable/jobexperience"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:textColor="#000"-->
+
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:drawableLeft="@drawable/usersubject"
+                    android:id="@+id/listview_subjects"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+            <!--<TextView-->
+                <!--android:drawableLeft="@drawable/joblocation"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:id="@+id/listview_location"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="#000"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="5dp"/>-->
+
+            <RelativeLayout
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/listview_apply"
+                    android:src="@drawable/applyjob"
+
+
+                    android:layout_gravity="right"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+
+                    android:textColor="#000"
+
+                    android:layout_width="80dp"
+                    android:layout_height="40dp" />
+
+            </RelativeLayout>
+        </TableLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

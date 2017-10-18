@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#080808"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:text="Search job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+
+            android:id="@+id/subjects2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+
+            android:hint="Name"
+            android:textColor="#080808"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="01dp"
+            android:background="@android:color/darker_gray"/>
+
+        <Spinner
+
+            android:id="@+id/location2"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="Phone"
+            android:textColor="#080808"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="01dp"
+            android:background="@android:color/darker_gray"/>
+
+        <Spinner
+
+            android:id="@+id/experience2"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="Phone"
+            android:textColor="#080808"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="01dp"
+            android:background="@android:color/darker_gray"/>
+
+
+
+        <Button
+            android:id="@+id/submit2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:hint="Search Jobs"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:layout_gravity="bottom"
+            android:textColor="#3F51B5"
+            android:background="#a9b6be"
+            android:layout_marginTop="10dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:id="@+id/manlogin"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="4"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/manregister"
+            android:layout_gravity="bottom"
+            android:textColor="#3F51B5"
+            android:background="#a9b6be"
+
+            android:layout_marginTop="10dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="4"
+            android:text="Register" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</ScrollView>

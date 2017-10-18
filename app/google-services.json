@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "297087564747",
+    "firebase_url": "https://jobportal-3e157.firebaseio.com",
+    "project_id": "jobportal-3e157",
+    "storage_bucket": "jobportal-3e157.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297087564747:android:34de57907ea1302c",
+        "android_client_info": {
+          "package_name": "com.softianstech.jopportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297087564747-u9jplupa7anltjg824vu3d25fqb74u9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softianstech.jopportal",
+            "certificate_hash": "7bb0db9e3be0921ce6a62c83be473521466f2cbb"
+          }
+        },
+        {
+          "client_id": "297087564747-k8jpbfs0ls0oid2q9p9cuaiiu3um2j93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjCuS8cZH7A4DciexjIlSPfC1SfvL3Hnk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297087564747-k8jpbfs0ls0oid2q9p9cuaiiu3um2j93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
